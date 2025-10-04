@@ -1,2 +1,5 @@
-- name: Build Android App
-  uses: sparkfabrik/android-build-action@v1.5.0
+name: Android CI
+- uses: sparkfabrik/android-build-action@v1.5.0
+  with:
+    project-path: android
+    output-path: *.apk
